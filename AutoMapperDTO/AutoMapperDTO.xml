@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoMapperDTO</name>
+    </assembly>
+    <members>
+        <member name="M:AutoMapperDTO.Controllers.SuperHeroController.GetHeroes">
+            <summary>
+            Returns SuperHero in mapped SuperHeroDTO
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapperDTO.Controllers.SuperHeroController.AddHero(AutoMapperDTO.Entities.SuperHeroDTO)">
+            <summary>
+            Adding new SuperHeroDTO which gets mapped to SuperHero before adding to List of SuperHero
+            </summary>
+            <param name="newHero"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapperDTO.Controllers.SuperHeroController.GetHeroesFull">
+            <summary>
+            Returns List of SuperHero
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
