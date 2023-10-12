@@ -23,8 +23,5 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.5.0" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="&quot;C:\Program Files (x86)\Microsoft SDKs\ClickOnce\SignTool\signtool.exe&quot; sign /a &quot;$(ProjectDir)$(OutputPath)\AutoMapperDTO.exe&quot;" />
-  </Target>
 
 </Project>
